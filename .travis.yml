@@ -8,6 +8,6 @@ language: python
 python:
   - "2.7"
 script:
-  - "python3 calculadoratest.py"
+  - "python3 figurastest.py"
   - "lettuce bdd/tests"
-  - "coverage run --branch calculadoratest.py"
+  - "coverage run --branch figurastest.py"
